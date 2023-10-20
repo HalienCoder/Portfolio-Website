@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Coffee Healing";
+  src: url(../Fonts/CoffeeHealing-1GrKe.ttf);
+}
+@font-face {
+  font-family: "Milocha";
+  src: url(../Fonts/milocha.otf);
+}

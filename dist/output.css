@@ -538,16 +538,71 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-3 {
+  margin: 0.75rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
+}
+
+.my-\[25\%\] {
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.my-\[10\%\] {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.my-\[15\%\] {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.mb-\[2vw\] {
+  margin-bottom: 2vw;
+}
+
+.mt-\[1\%\] {
+  margin-top: 1%;
+}
+
+.mt-\[10\%\] {
+  margin-top: 10%;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .flex {
   display: flex;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .h-screen {
@@ -562,12 +617,36 @@ video {
   flex: 1 1 0%;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-2 {
@@ -576,6 +655,33 @@ video {
 
 .gap-2\.5 {
   gap: 0.625rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-DaBlu {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 60 88 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-green-700 {
@@ -588,14 +694,21 @@ video {
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
-.bg-green-400 {
+.bg-Yello {
   --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+  background-color: rgb(255 186 66 / var(--tw-bg-opacity));
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-3 {
@@ -612,8 +725,43 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-80 {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.py-\[25\%\] {
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+.pl-80 {
+  padding-left: 20rem;
+}
+
+.pl-96 {
+  padding-left: 24rem;
+}
+
+.pt-\[50\%\] {
+  padding-top: 50%;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .align-middle {
   vertical-align: middle;
+}
+
+.font-Milocha {
+  font-family: Milocha, cursive;
 }
 
 .font-Roboto {
@@ -625,6 +773,63 @@ video {
   line-height: 2rem;
 }
 
+.text-\[21vw\] {
+  font-size: 21vw;
+}
+
+.text-\[15vw\] {
+  font-size: 15vw;
+}
+
+.text-\[10vw\] {
+  font-size: 10vw;
+}
+
+.text-\[5vw\] {
+  font-size: 5vw;
+}
+
+.text-\[4\.2vw\] {
+  font-size: 4.2vw;
+}
+
+.text-\[3vw\] {
+  font-size: 3vw;
+}
+
+.text-\[8vw\] {
+  font-size: 8vw;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.leading-\[20vw\] {
+  line-height: 20vw;
+}
+
+.text-LiYello {
+  color: FFD35B;
+}
+
+.text-DaBlu {
+  --tw-text-opacity: 1;
+  color: rgb(1 60 88 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: "Coffee Healing";
+
+  src: url(../Fonts/CoffeeHealing-1GrKe.ttf);
+}
+
+@font-face {
+  font-family: "Milocha";
+
+  src: url(../Fonts/milocha.otf);
 }

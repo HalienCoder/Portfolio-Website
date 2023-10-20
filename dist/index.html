@@ -12,46 +12,69 @@
         rel="stylesheet">
 </head>
 
-<body class="font-Roboto">
+<body class="font-Roboto font-semibold">
     <header>
-        <div class="bg-green-700 flex py-3 w-full fixed">
+        <!-- <div class="bg-green-700 flex py-3 w-full fixed">
             <h1 class="px-5">Nihal</h1>
             <nav>
-                <ul class="flex gap-2.5">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+                <!-- hamburger menu for mobile view -->
+        <!-- <ul class="flex gap-2.5">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+        </div> -->
     </header>
 
-    <body class="bg-red-200">
-        <div class=" bg-green-400 flex flex-1 h-screen items-center justify-center">
-            <h1 class="p-3 ">SOMETHING</h1>
+    <body>
+
+        <div class=" bg-DaBlu flex flex-1 h-screen justify-start items-center">
+            <h1 class="p-2 font-Milocha text-[21vw] leading-[20vw] uppercase text-LiYello">Hello <br> Humans! </h1>
+
         </div>
-        <section id="about" class="">
-            <h1 class=" font-semibold text-2xl">About me</h1>
-            <div>
-                <img src="https://picsum.photos/200/300" alt="An image of me">
-                <h1>
-                    Hello, I am NIHAL SIVAPURAM a
-                </h1>
-                <span id="element"></span>
+
+        <section id="about" class="bg-Yello mb-[2vw]">
+            <div class=" p-3 text-left">
+                <h1 class="font-Milocha text-[8vw] ">About me</h1>
+            </div>
+            <div class="flex items-centre justify-center">
+                <div class="mt-20 px-5">
+                    <h1 class="text-[3vw]">
+                        I am <span class="text-DaBlu font-Milocha">NIHAL SIVAPURAM</span> a
+                    </h1>
+                    <span id="element" class="text-[4.2vw] text-DaBlu font-Milocha"></span>
+                    <div class="flex justify-center items-center">
+                        <div class="border-solid border-2 rounded p-2 m-5 "><a href="">GitHub
+                            </a></div>
+                        <div class="border-solid border-2 rounded p-2 m-5"><a href="">LinkedIn
+                            </a></div>
+                        <div class="border-solid border-2 rounded p-2 m-5"><a href="">Instagram
+                            </a></div>
+                    </div>
+                    <a href="" class="border-solid border-2 rounded p-2 m-5">Download CV</a>
+
+                </div>
+                <img class="mb-[2vw]" src="https://picsum.photos/700/450" alt="An image of me">
                 <!-- Resume and links to all social media -->
             </div>
+
         </section>
+
         <section id="skills" class="">
             <h1>Skills</h1>
             <!-- boxes of each skill with image, and then work experience -->
         </section>
+
         <section id="projects" class="">
             <h1>Projects</h1>
             <!-- cards, each project, and link to github -->
         </section>
+
         <!-- can include a "Days I code over here" -->
+
         <section id="contact" class="">
             <h1>Contact Me</h1>
         </section>
@@ -61,11 +84,14 @@
         This is a footer
         <!-- Links to social media -->
     </footer>
+
+
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Photographer', 'Web Developer'],
-            typeSpeed: 50,
+            strings: ['Web Developer', 'Tech Enthusiast', 'Photographer',],
+            typeSpeed: 120,
         });
 
     </script>
