@@ -4,9 +4,9 @@
 
 @font-face {
   font-family: "Coffee Healing";
-  src: url(../Fonts/CoffeeHealing-1GrKe.ttf);
+  src: url(/dist/Resources/Fonts/antique-olive/Antique\ Olive\ Regular.ttf);
 }
 @font-face {
   font-family: "Milocha";
-  src: url(../Fonts/milocha.otf);
+  src: url(/dist/Resources/Fonts/milocha.otf);
 }
